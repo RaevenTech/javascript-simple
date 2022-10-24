@@ -1,0 +1,97 @@
+/*  font-family: 'Great Vibes', cursive;  */
+/*  font-family: 'Poppins', sans-serif; */
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: black;
+    position: relative;
+}
+/*-- top navigation --*/
+#nav {
+    position:absolute;
+    background: transparent;
+    margin-top: 0px;
+}
+#home_logo {
+    margin: 15px 0px 0px 0px;
+    padding-left: 2em;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+    font-family:'Great Vibes', cursive;
+}
+.innerText_logo {
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-family: "poppins", sans-serif;
+}
+.js_logo {
+    color: yellow;
+}
+/*-- hero section --*/
+#bg_image {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+/*-- project cards --*/
+.home_projects {
+    position:absolute;
+    padding: 0px 125px;
+    top: 13%;
+    left: 0;
+    display: flex;
+   
+}
+.projects_3 {
+    margin-left: 620px;
+}
+
+.project_card {
+    color: white;
+    box-sizing: border-box;
+    width: 150px;
+    height: 180px;
+    cursor: pointer;
+    
+}
+.project_card:hover {
+ 
+}
+.project_card_left {
+    color: white;
+    box-sizing: border-box;
+    width: 150px;
+    height: 180px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+.project_card_right {
+    color: white;
+    box-sizing: border-box;
+    width: 150px;
+    height: 180px;
+    margin-left: -170px;
+    cursor: pointer;
+}
+.project_img {
+    border-radius: 8px;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+.project_title {
+   
+    margin: 0px;
+    text-align: center;
+}
+.project_title:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in;
+    color: yellow;
+}
+
+
+
