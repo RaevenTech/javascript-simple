@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="keywords" content="HTML,CSS,JavaSript" />
+        <meta name="author" content="Raeven Goncalves" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="basket-styles.css" />
+        <title>basket ball</title>
+    </head>
+    <body>
+        <div class="container">
+            <!----- home team ---->
+            <section class="team_board">
+                <h3 class="team">Home</h3>
+                <div class="">
+                    <h1 id="home_score_el" class="home_score">0</h1>
+                </div>
+                <div class="">
+                    <button class="home_one" onclick="addOneHome()">+1</button>
+                    <button class="home_two" onclick="addTwoHome()">+2</button>
+                    <button class="home_three" onclick="addThreeHome()">
+                        +3
+                    </button>
+                </div>
+                <div class="reset_btn_el">
+                    <button id="reset_btn" onclick="resetHome()">Reset</button>
+                </div>
+            </section>
+            <!----- Away team ---->
+            <section class="team_board">
+                <h3 class="team">Away</h3>
+                <div class="">
+                    <h1 id="away_score_el" class="home_score">0</h1>
+                </div>
+                <div class="">
+                    <button class="home_one" onclick="addOne()">+1</button>
+                    <button class="home_two" onclick="addTwo()">+2</button>
+                    <button class="home_three" onclick="addThree()">+3</button>
+                </div>
+                <div class="reset_btn_el">
+                    <button id="reset_btn" onclick="resetAway()">Reset</button>
+                </div>
+            </section>
+        </div>
+        <script src="basket-script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    background: url(https://cdn.britannica.com/31/142331-131-EE300AF6/basketball-Orange-background-lighting-Homepage-entertainment-history-2010.jpg?q=60);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.bg_img {
+position: relative;
+height: 100vh;
+
+}
+
+.container {
+    opacity: 95%;
+    position: absolute;
+    color:white;
+    width: 500px;
+    height: 320px;
+    background: rgb(28, 3, 128);
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 200px ;
+    padding-top: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 25px white;
+}
+.team {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home_score {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#reset_btn {
+    background: rgb(112, 0, 0);
+}
+button {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 15px 10px;
+    margin-top: opx;
+}
+.reset_btn_el {
+    text-align: center;
+    margin-top: 15px;
+}
+.team_board {
+    background: rgb(22, 2, 99);
+    height: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 4px 10px black;
+}

@@ -57,9 +57,6 @@ body {
     cursor: pointer;
     
 }
-.project_card:hover {
- 
-}
 .project_card_left {
     color: white;
     box-sizing: border-box;
@@ -76,6 +73,7 @@ body {
     margin-left: -170px;
     cursor: pointer;
 }
+
 .project_img {
     border-radius: 8px;
     width: 100%;
