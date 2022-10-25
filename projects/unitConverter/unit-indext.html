@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="HTML,CSS JavaScript" />
+        <meta name="author" content="Raeven Goncalves" />
+        <link rel="stylesheet" href="unit-styles.css" />
+        <title>Unit Converter</title>
+    </head>
+    <body>
+        <div id="main_container">
+            <section id="top_container">
+                <h1 id="title">Convertion Metric/Imerial Units</h1>
+                <p class="subtitle">Enter Number</p>
+                <div id="input_div">
+                    <input id="input_el" type="text" class="no_outline" />
+                </div>
+                <div class="btns">
+                    <button id="convert_btn">Convert</button>
+                </div>
+            </section>
+            <section id="bottom_container">
+                <div class="inner_container">
+                    <h3>Length(Meters/Feet)</h3>
+                    <div class="convertions">
+                        <p id="length_el">
+                            0 meters = 0.000 feet | 0 feet = 0.000 meters
+                        </p>
+                    </div>
+                </div>
+                <div class="inner_container">
+                    <h3>Volume(Liters/Gallons)</h3>
+                    <div class="convertions">
+                        <p id="volume_el">
+                            0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+                        </p>
+                    </div>
+                </div>
+                <div class="inner_container">
+                    <h3>Mass(kilograms/Pounds)</h3>
+                    <div class="convertions">
+                        <p id="mass_el">
+                            0 kilograms = 0.000 pounds | 0 pounds = 0.000 kilos
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="unit-script.js"></script>
+    </body>
+</html>
