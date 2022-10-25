@@ -7,6 +7,9 @@ body {
     background-color: black;
     position: relative;
 }
+a {
+    text-decoration: none;
+}
 /*-- top navigation --*/
 #nav {
     position:absolute;
@@ -33,6 +36,7 @@ body {
 /*-- hero section --*/
 #bg_image {
     width: 100%;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat
 }
@@ -46,16 +50,22 @@ body {
    
 }
 .projects_3 {
-    margin-left: 620px;
+    margin-left: 520px;
 }
 
 .project_card {
     color: white;
+    margin-top: -5px;
     box-sizing: border-box;
     width: 150px;
     height: 180px;
     cursor: pointer;
-    
+}
+.project_card:hover {
+    transform: scale(1.1);
+    transition: .4s ease-in;
+    text-transform:calc(1.1);
+    color: yellow;
 }
 .project_card_left {
     color: white;
@@ -65,13 +75,25 @@ body {
     margin-left: 170px;
     cursor: pointer;
 }
-.project_card_right {
+.project_card_left:hover {
+    transform: scale(1.1);
+    transition: .4s ease-in;
+    text-transform:calc(1.1);
+    color: yellow;
+}
+.project_card_2 {
     color: white;
+    margin: 50px 0px;
     box-sizing: border-box;
     width: 150px;
     height: 180px;
-    margin-left: -170px;
     cursor: pointer;
+}
+.project_card_2:hover {
+    transform: scale(1.1);
+    transition: .4s ease-in;
+    text-transform:calc(1.1);
+    color: yellow;
 }
 
 .project_img {
@@ -81,14 +103,8 @@ body {
     float: left;
 }
 .project_title {
-   
     margin: 0px;
     text-align: center;
-}
-.project_title:hover {
-    transform: scale(1.1);
-    transition: .3s ease-in;
-    color: yellow;
 }
 
 
