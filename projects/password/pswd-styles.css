@@ -1,0 +1,72 @@
+#main_page {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:5rem;
+    background-image: url(https://www.budismohoje.org.br/wp-content/uploads/2022/01/Matrix_Capa.jpg);
+    background-size: cover;
+    }
+    
+    #container {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        margin-top: 100px;
+        background-color: rgb(20, 18, 30);
+        padding:50px;
+        border: 5px solid green;
+        box-shadow: 3px 3px 9px 9px greenyellow;
+        border-radius: 5%;
+    }
+    
+    #title1 {
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    #title2 {
+    color: chartreuse;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    p {
+        color: darkolivegreen;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    
+    #generate_btn {
+    color:white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: rgb(109, 214, 4);
+    padding: 5px 10px;
+    border-radius:5px;
+    margin-bottom: 10px;
+    }
+    #generate_btn:hover {
+        background-color: darkgreen;
+    }
+    
+    .password_options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    #passwordOne_el {
+        color:chartreuse;
+        letter-spacing: 1px;
+        background-color: rgb(48, 59, 38);
+        padding: 5px 10px;
+        border-radius:5px;
+    }
+    #passwordTwo_el {
+        color:chartreuse;
+        letter-spacing: 1px;
+        background-color: rgb(48, 59, 38);
+        padding: 5px 10px;
+        border-radius:5px;
+    }
