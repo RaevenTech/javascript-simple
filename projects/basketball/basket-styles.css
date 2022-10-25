@@ -63,3 +63,18 @@ button {
     border: 1px solid black;
     box-shadow: 2px 4px 10px black;
 }
+.redirect_btns {
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+    font-size: 2em;
+    font-weight: 700;
+}
+a {
+    color: rgb(1, 8, 148);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    transition: .2s ease-in;
+}
