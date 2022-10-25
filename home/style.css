@@ -106,6 +106,15 @@ a {
     margin: 0px;
     text-align: center;
 }
+.info {
+    font-size: 2em;
+    color: gray;
+    position:absolute;
+    bottom:0;
+    right: 50px;
+    z-index: 4;
+    margin-bottom: 10px;
+}
 
 
 

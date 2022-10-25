@@ -6,8 +6,6 @@ body {
     align-items: center;
     background-image: url(https://apostalegal.com/wp-content/uploads/2020/09/como-jogar-blackjack-online.jpg);
     background-size: cover;
-   
-    
  }
 
  .container { 
@@ -15,7 +13,7 @@ body {
     box-shadow: 2px 4px 6px black;
     border: 10px solid rgb(100, 85, 69);
     border-radius: 20px;
-    margin-top: 250px;
+    margin-top: 150px;
     width: 30%;
     margin-right: 750px;
     height: fit-content;
@@ -53,4 +51,39 @@ body {
 
 #player_el {
    color: rgb(246, 218, 77);
+}
+
+#redirect_btns {
+   display: flex;
+   gap: 20px;
+   margin-top: 20px;
+   margin-right: 560px;
+}
+.back_btn {
+   color:greenyellow;
+   border: none;
+   background: transparent;
+   padding: 5px 10px;
+}
+.code_btn {
+   color:greenyellow;
+   border: none;
+   background: transparent;
+   padding: 5px 10px;
+}
+.back_btn:hover {
+   color: rgb(8, 8, 8);
+   border: none;
+   border-radius: 7px;
+   background: transparent;
+   padding: 5px 10px;
+   box-shadow: inset 1px 1px 5px red;
+}
+.code_btn:hover {
+   color: chartreuse;
+   border: none;
+   border-radius: 7px;
+   background: transparent;
+   padding: 5px 10px;
+   box-shadow: inset 1px 1px 5px chartreuse;
 }
