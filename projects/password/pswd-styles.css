@@ -16,10 +16,26 @@
         border: 5px solid green;
         box-shadow: 3px 3px 9px 9px greenyellow;
         border-radius: 5%;
+        position: relative;
+    }
+
+    .back_btn {
+        position:absolute;
+        top:5px;
+        right: 5px;
+        opacity: 80%;
+        border: none;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.289);
+    }
+
+    .back_btn:hover {
+        color: rgba(255, 0, 0, 0.952);
+        transform: scale(1.1);
+        transition: .2s ease-in;
     }
     
     #title1 {
-    
     margin-top: 0px;
     margin-bottom: 0px;
     }
@@ -69,4 +85,20 @@
         background-color: rgb(48, 59, 38);
         padding: 5px 10px;
         border-radius:5px;
+    }
+
+    .code_btn {
+        position:absolute;
+        bottom:5px;
+        left: 5px;
+        opacity: 80%;
+        border: none;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.28);
+    }
+
+    .code_btn:hover {
+        color: chartreuse;
+        transform: scale(1.1);
+        transition: .2s ease-in;
     }
