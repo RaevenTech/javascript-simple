@@ -15,6 +15,7 @@ a {
     position:absolute;
     background: transparent;
     margin-top: 0px;
+    z-index: 5;
 }
 #home_logo {
     margin: 15px 0px 0px 0px;
@@ -25,6 +26,7 @@ a {
     color: white;
     font-family:'Great Vibes', cursive;
 }
+
 .innerText_logo {
     font-size: 1em;
     letter-spacing: 1px;
@@ -37,6 +39,7 @@ a {
 #bg_image {
     width: 100%;
     height: 100vh;
+    opacity: 70%;
     background-size: cover;
     background-repeat: no-repeat
 }
@@ -44,15 +47,16 @@ a {
 .home_projects {
     position:absolute;
     padding: 0px 125px;
-    top: 13%;
+    top: 15%;
     left: 0;
     display: flex;
-   
+    justify-content: center;
 }
-.projects_3 {
-    margin-left: 520px;
+.projects_2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
 }
-
 .project_card {
     color: white;
     margin-top: -5px;
@@ -66,36 +70,8 @@ a {
     transition: .4s ease-in;
     text-transform:calc(1.1);
     color: yellow;
+   
 }
-.project_card_left {
-    color: white;
-    box-sizing: border-box;
-    width: 150px;
-    height: 180px;
-    margin-left: 170px;
-    cursor: pointer;
-}
-.project_card_left:hover {
-    transform: scale(1.1);
-    transition: .4s ease-in;
-    text-transform:calc(1.1);
-    color: yellow;
-}
-.project_card_2 {
-    color: white;
-    margin: 50px 0px;
-    box-sizing: border-box;
-    width: 150px;
-    height: 180px;
-    cursor: pointer;
-}
-.project_card_2:hover {
-    transform: scale(1.1);
-    transition: .4s ease-in;
-    text-transform:calc(1.1);
-    color: yellow;
-}
-
 .project_img {
     border-radius: 8px;
     width: 100%;
@@ -110,10 +86,17 @@ a {
     font-size: 2em;
     color: gray;
     position:absolute;
-    bottom:0;
+    bottom:10px;
     right: 50px;
     z-index: 4;
     margin-bottom: 10px;
+}
+.info_link a:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in;
+    color: rgb(187, 2, 187);
+    
+    
 }
 
 
