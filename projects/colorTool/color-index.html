@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/projects/colorTool/color-styles.css" />
+        <title>Color tool</title>
+    </head>
+    <body>
+        <img class="bg_img" src="/assets/Colouring_pencils.jpg" alt="pencils" />
+        <div class="container">
+            <h1 class="title">Colors</h1>
+            <h1 class="title">
+                Lighter / <span class="title_span">Darker</span>
+            </h1>
+            <label for="hex">Color(hex)</label>
+            <input
+                id="hexInput"
+                class="hex_input"
+                type="text"
+                name="hex"
+                placeholder="#000000"
+                value="#000000"
+            />
+            <div class="colors">
+                <div class="color">
+                    <p class="color"><strong>Base Color</strong></p>
+                    <div id="inputColor" class="box"></div>
+                </div>
+                <div class="color">
+                    <p><strong id="alteredColorText">Color Output</strong></p>
+                    <div id="alteredColor" class="box"></div>
+                </div>
+            </div>
+            <div class="slider_el">
+                <label for="slider" id="sliderText">0%</label>
+                <input
+                    id="slider"
+                    class="slider"
+                    name="slider"
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="0"
+                />
+            </div>
+            <div class="toggle">
+                <p id="lightenText" class="toggle_text">
+                    <small>Lighten</small>
+                </p>
+                <div id="toggleBtn" class="toggle_btn">
+                    <div class="inner_circle"></div>
+                </div>
+                <p id="darkenText" class="toggle_text">
+                    <small>Darken</small>
+                </p>
+            </div>
+            <div class="links">
+                <a href="https://github.com/RaevenTech/color-range-tool"
+                    ><button id="code_btn" class="link_btn">code</button></a
+                >
+                <a href="/index.html"
+                    ><button id="back_btn" class="link_btn">back</button></a
+                >
+            </div>
+        </div>
+        <script src="/projects/colorTool/color-script.js"></script>
+    </body>
+</html>
