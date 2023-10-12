@@ -62,7 +62,6 @@ a {
 .projects_2 {
   display: flex;
   flex-wrap: wrap;
-  /* grid-template-columns: repeat(7, 1fr); */
   gap: 1.5rem;
   margin-left: 2.3rem;
 }
